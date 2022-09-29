@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>Paper 457: Overcloud cloud profiles</title>
+    <title>Skyplane optimizer demo</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -28,7 +28,7 @@
             <svg class="bi me-2" width="40" height="32"
                 <use xlink:href="#bootstrap" />
             </svg>
-            <span class="fs-4"><i class="bi bi-cloud-lightning-rain-fill"></i>&nbsp;&nbsp;Overcloud (#457)</span>
+            <span class="fs-4"><i class="bi bi-cloud-lightning-rain-fill"></i>&nbsp;&nbsp;Skyplane</span>
         </a>
 
         <ul class="nav nav-pills">
@@ -41,31 +41,9 @@
         </ul>
     </header>
   
-    <!-- <main class="container"> -->
-        <!-- <div class="row">
-            <div class="col-12">
-                <h5>Network Overlays for Navigating the Cost-Performance Tradeoff for Inter-Cloud Bulk Transfers</h5>
-                <div class="accordion" id="accordionExample">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingOne">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                Abstract
-                            </button>
-                        </h2>
-                    </div>
-                </div>
-                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        Cloud applications are increasingly distributing data across multiple regions and cloud providers due to privacy regulations, availability of specialized hardware, and to prevent vendor lock-in. Unfortunately, wide-area bulk data transfers are often slow, bottlenecking applications. We demonstrate that it is possible to significantly improve inter-cloud bulk transfer throughput by adapting network overlays to the cloud setting—that is, by routing data through indirect paths at the application layer. However, directly applying network overlays in this setting results in unacceptable increases in cloud egress prices. We present Overcloud, a system for bulk data transfer between cloud object stores that uses network overlays to optimally navigate the trade-off between price and performance. Overcloud's planner uses mixed-integer linear programming to determine the optimal overlay path and resource allocation for data transfer, subject to user-provided constraints on price or performance. Overcloud's data plane saturates the available bandwidth found by the planner with parallel reads/writes and integrates well with object stores, aligning with the stores’ internal layouts. Together, these techniques allow Overcloud to significantly improve object transfer throughput at very low cost overheads.
-                    </div>
-            </div>
-        </div> -->
-
-        <!-- iframe of http://3.236.164.28:8080/ -->
-        <iframe src="https://dash.skyplane.me" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; z-index: 0;">
-            Your browser doesn't support iframes, please visit <a href="http://3.236.164.28:8080/">http://3.236.164.28:8080/</a>
-        </iframe>
-    <!-- </main> -->
+    <iframe src="https://dash.skyplane.me" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; z-index: 0;">
+        Your browser doesn't support iframes, please visit <a href="http://3.236.164.28:8080/">http://3.236.164.28:8080/</a>
+    </iframe>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
